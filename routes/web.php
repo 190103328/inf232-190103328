@@ -28,3 +28,7 @@ Route::get('/user', function () {
 Route::get('/week4', function () {
     return 'Ayaulym Akkulova 190103328 lab work number 4';
 });
+
+Route::get('/post/{id?}', function ($id=190103328) {
+    return 'Your id is: '.$id;
+});
