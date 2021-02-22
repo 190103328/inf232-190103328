@@ -24,3 +24,7 @@ Route::get('/ayau', function () {
 Route::get('/user', function () {
     return view('user');
 })->name('user');
+
+Route::get('/week4', function () {
+    return 'Ayaulym Akkulova 190103328 lab work number 4';
+});
